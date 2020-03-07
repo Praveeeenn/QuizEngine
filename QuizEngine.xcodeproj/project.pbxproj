@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AC73143A2413674200551501 /* QuizEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7314302413674200551501 /* QuizEngine.framework */; };
-		AC73143F2413674200551501 /* QuizEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC73143E2413674200551501 /* QuizEngineTests.swift */; };
-		AC7314412413674200551501 /* QuizEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = AC7314332413674200551501 /* QuizEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,10 +22,8 @@
 
 /* Begin PBXFileReference section */
 		AC7314302413674200551501 /* QuizEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuizEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC7314332413674200551501 /* QuizEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizEngine.h; sourceTree = "<group>"; };
 		AC7314342413674200551501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC7314392413674200551501 /* QuizEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC73143E2413674200551501 /* QuizEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizEngineTests.swift; sourceTree = "<group>"; };
 		AC7314402413674200551501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +67,6 @@
 		AC7314322413674200551501 /* QuizEngine */ = {
 			isa = PBXGroup;
 			children = (
-				AC7314332413674200551501 /* QuizEngine.h */,
 				AC7314342413674200551501 /* Info.plist */,
 			);
 			path = QuizEngine;
@@ -80,7 +75,6 @@
 		AC73143D2413674200551501 /* QuizEngineTests */ = {
 			isa = PBXGroup;
 			children = (
-				AC73143E2413674200551501 /* QuizEngineTests.swift */,
 				AC7314402413674200551501 /* Info.plist */,
 			);
 			path = QuizEngineTests;
@@ -93,7 +87,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC7314412413674200551501 /* QuizEngine.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC73143F2413674200551501 /* QuizEngineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
